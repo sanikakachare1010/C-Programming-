@@ -17,7 +17,7 @@ int main()
     for(i = 0; i < size; i++)
     {
         printf("\n Element %d=%d",i+1,Array[i]);
-        Cnt = Cnt + Array[i];
+        Cnt++;
 
     }
     printf("\n Total Count of Elememt :%d",Cnt);
