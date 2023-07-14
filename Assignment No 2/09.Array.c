@@ -18,8 +18,8 @@ int main()
     {
         printf("\n Element : %d=%d",i+1,Array[i]);
 
-        if(Array[i]>Max)
-        {
+        if((i == 0) || (Array[i]>Max))
+        { 
             Max = Array[i];
         }
 
